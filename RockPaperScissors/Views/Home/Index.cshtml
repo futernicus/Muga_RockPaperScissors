@@ -1,0 +1,34 @@
+﻿@using RockPaperScissors.Models
+@model GameModel
+
+@{
+  ViewBag.Title = "Home Page";
+}
+
+<div class="row">
+    <div class="col-md-4">
+        @using (Html.BeginForm())
+        {
+            <br /><br />
+        
+            <fieldset>
+                <legend>Player 1</legend>
+                <label>@Html.RadioButtonFor(m => m.Player1Move, PlayerMoveChoices.computer) computer</label>
+                <label>@Html.RadioButtonFor(m => m.Player1Move, PlayerMoveChoices.rock) rock</label>
+                <label>@Html.RadioButtonFor(m => m.Player1Move, PlayerMoveChoices.paper) paper</label>
+                <label>@Html.RadioButtonFor(m => m.Player1Move, PlayerMoveChoices.scissors) scissors</label>
+            </fieldset>
+
+            <br /><br />
+
+            <fieldset>
+                <legend>Player 2</legend>
+                <label>@Html.RadioButtonFor(m => m.Player2Move, PlayerMoveChoices.computer) computer</label>
+            </fieldset>
+
+            <br /><br />
+            <h3>@Model.GameResult</h3>
+            <input type="submit" class="btn-primary btn-lg" value="Play"/>
+        }
+    </div>
+</div>

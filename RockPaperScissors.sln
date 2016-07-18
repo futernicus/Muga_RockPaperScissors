@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RockPaperScissors", "RockPaperScissors\RockPaperScissors.csproj", "{DA34B8E3-7349-4F73-98F6-D533103EA960}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RockPaperScissors.Tests", "RockPaperScissors.Tests\RockPaperScissors.Tests.csproj", "{C760FA20-0924-4A48-AF18-385310B1A70A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RockPaperScissorsEngine", "RockPaperScissorsEngine\RockPaperScissorsEngine.csproj", "{947F4AE6-8698-48E4-ADA8-51DDF83690EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RockPaperScissorsEngineTest", "RockPaperScissorsEngineTest\RockPaperScissorsEngineTest.csproj", "{EAF3D407-CB31-4170-AE00-484516DB18DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA34B8E3-7349-4F73-98F6-D533103EA960}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA34B8E3-7349-4F73-98F6-D533103EA960}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA34B8E3-7349-4F73-98F6-D533103EA960}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA34B8E3-7349-4F73-98F6-D533103EA960}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C760FA20-0924-4A48-AF18-385310B1A70A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C760FA20-0924-4A48-AF18-385310B1A70A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C760FA20-0924-4A48-AF18-385310B1A70A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C760FA20-0924-4A48-AF18-385310B1A70A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{947F4AE6-8698-48E4-ADA8-51DDF83690EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{947F4AE6-8698-48E4-ADA8-51DDF83690EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{947F4AE6-8698-48E4-ADA8-51DDF83690EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{947F4AE6-8698-48E4-ADA8-51DDF83690EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAF3D407-CB31-4170-AE00-484516DB18DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAF3D407-CB31-4170-AE00-484516DB18DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAF3D407-CB31-4170-AE00-484516DB18DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAF3D407-CB31-4170-AE00-484516DB18DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

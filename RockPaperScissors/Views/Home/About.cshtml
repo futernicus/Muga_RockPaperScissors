@@ -1,0 +1,32 @@
+﻿@{
+    ViewBag.Title = "About";
+}
+<h2>@ViewBag.Title.</h2>
+<h3>@ViewBag.Message</h3>
+
+<p>An implementation of Rock, Scissors, Paper In ASP.NET MVC</p>
+<p>Play against the computer or have the computer play itself</p>
+
+<p>
+    The computer strategy is to select one of ( rock, paper, scissors ) at random.
+</p>
+
+<p>
+    A less naive strategy could look at frequency analysis of typical players
+    e.g. perhaps Rock is a more frequent choice than paper, even for a random new player
+</p>
+
+<p>
+    Also when playing the same person the stategy could look for patterns in behaviour
+    i.e. the computer could learn about how this player plays
+</p>
+
+<p>
+    This is a Microsoft dotnet solution implemented in C#.
+    The main logic is in class library RockPaperScissorsEngine.
+    This has a set of supporting unit tests.
+</p>
+
+<p>
+    The current implementation uses BootStrap, there is scope for making the markup more semantic with minimal effort.
+</p>
